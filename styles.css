@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700');
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	margin: 0px;
+	background-image: url(images/spiration-light.png);
+	height: 100%;
+}.iefix {
+	display: flex;
+}
+.container {
+	background-color: #FFFFFF;
+	margin: 0px auto;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	max-width: 1200px;
+}
+header {
+	text-align: right;
+	background-image: url(images/spiration-light.png);
+}
+header h1 {
+	font-size: 450%;
+	font-family: "Autumn in November";
+}
+header p {
+	font-size: 115%;
+}
+.container-fluid {
+	padding-left: 0px;
+	margin-left: 0px;
+}
+.nav.navbar-nav {
+	width: 715px;
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+}
+nav.navbar-default {
+	background-color: #CDB7E2;
+}
+ul.nav.navbar-nav a:link, ul.nav.navbar-nav a:visited {
+	color: #4A4A4A;
+}
+ul.nav.navbar-nav a:hover {
+	background-color: #16174B;
+	color: #FFFFFF;
+	transition: .5s;
+}
+main {
+	flex-grow: 1;
+}
+article h2 {
+	color: #00527F;
+	font-weight: bolder;
+	font-variant: normal;
+	font-style: normal;
+	text-decoration: none;
+	border-bottom: 2px solid #00527F;
+}
+article h3 {
+	color: #002940;
+}
+article p , article li{
+	line-height: 1.3em;
+}
+footer {
+	border-top: 2px solid #000000;
+	border-spacing: 5px 5px;
+	margin-top: 5px;
+	background-image: url(images/spiration-light.png);
+}
+footer p {
+	font-size: 80%;
+	margin-bottom: 0px;
+}
+footer img {
+	margin-left: 0px;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+@media (max-width: 767px){
+.nav.navbar-nav {
+	width: auto;
+}
+}
