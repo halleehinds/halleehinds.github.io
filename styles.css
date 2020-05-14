@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700');
+@font-face {
+	font-family: 'November';
+	src: url('/fonts/november.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  }  
 
 body {
 	font-family: 'Josefin Sans', sans-serif;
